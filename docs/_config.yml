@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 domain: "perceptiq.github.io"
 # Build settings
-theme: minima
+theme: minimal
 #theme: alshedivat/al-folio
 plugins:
   - jekyll-feed
