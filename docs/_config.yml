@@ -15,7 +15,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
-gem "github-pages", "~> 228", group: :jekyll_plugins
+#gem "github-pages", "~> 228", group: :jekyll_plugins
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -220,8 +220,7 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
-  - jekyll-diagrams
+  - jekyll-archives 
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -235,6 +234,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-diagrams
 
 # Sitemap settings
 defaults:
