@@ -30,10 +30,15 @@ twitter_username: jekyllrb
 github_username:  jekyll
 domain: "perceptiq.github.io"
 # Build settings
-theme: minimal
+#theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
+show_downloads: true
+#google_analytics: ID
+
 #theme: alshedivat/al-folio
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
